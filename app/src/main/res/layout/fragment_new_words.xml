@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:orientation="vertical">
+        <GridView
+            android:id="@+id/grid_new_words"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:numColumns="4"
+            android:layout_weight="6"/>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="4"
+            android:id="@+id/linearLayoutCompat">
+            <EditText
+                android:id="@+id/input_new_text"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:hint="输入新字"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:textSize="@dimen/input_text_size" />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="提交"
+                android:background="@drawable/button"
+                android:textColor="@color/colorBlack"
+                android:id="@+id/confirm_input"
+                android:textSize="@dimen/input_text_size"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+</FrameLayout>

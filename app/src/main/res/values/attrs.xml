@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="progress_unreached_color" format="color"></attr>
+    <attr name="progress_unreached_height" format="dimension"></attr>
+    <attr name="progress_reached_color" format="color"></attr>
+    <attr name="progress_reached_height" format="dimension"></attr>
+    <attr name="progress_text_color" format="color"></attr>
+    <attr name="progress_text_size" format="dimension"></attr>
+    <attr name="progress_text_offset" format="dimension"></attr>
+
+    <declare-styleable name="HorizontalProcessBar">
+        <attr name="progress_unreached_color" ></attr>
+        <attr name="progress_unreached_height" ></attr>
+        <attr name="progress_reached_color"></attr>
+        <attr name="progress_reached_height" ></attr>
+        <attr name="progress_text_color"></attr>
+        <attr name="progress_text_size" ></attr>
+        <attr name="progress_text_offset"></attr>
+    </declare-styleable>
+</resources>

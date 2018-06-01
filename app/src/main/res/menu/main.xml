@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/test_settings"
+        android:orderInCategory="100"
+        android:title="@string/test_settings" />
+    <item android:id="@+id/static_data"
+        android:orderInCategory="100"
+        android:title="@string/static_getting"/>
+    <!--<item android:id="@+id/update_info"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/update"/>-->
+</menu>

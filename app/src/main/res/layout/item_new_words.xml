@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_weight="5"
+    android:id="@+id/grid_item">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="56dp"
+        android:id="@+id/new_words"
+        android:layout_weight="4"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/format"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/new_words_time"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="18dp"/>
+</LinearLayout>
